@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+void carMaintence ()
+{
+  int miles;
+
+  cout << "Miles on Odometer Currently:";
+  cin >> miles;
+
+  while (cin.fail())
+    {
+      cin.clear();
+      cin.ignore();
+      cout << "Please enter a valid input" << endl;
+      cin >> miles;
+    }
+    
+        if(miles > 0)
+        {
+            cout << "You car needs maintence"; 
+        }
+    
+
+}
+
+int main ()
+{
+  carMaintence ();
+
+  return 0;
+}
