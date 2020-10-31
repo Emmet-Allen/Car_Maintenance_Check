@@ -41,7 +41,10 @@ void carMaintence ()
 int main ()
 {
   system("color 0A");
+  system("pause");
   carMaintence ();
+  
+
 
   return 0;
 }
