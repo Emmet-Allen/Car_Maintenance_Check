@@ -18,9 +18,11 @@ void carMaintence ()
       cin >> miles;
     }
 
+if (miles == 0 || miles > 30,000){
+  cout << "The car is pretty new, continue general maintance" << endl; 
+}
 
-
-        if(miles < 30,000)
+       else if(miles < 30,000)
         {
           cout << "Change Air Filter" << endl; 
             cout << "Change Fuel Filter" << endl; 
@@ -31,8 +33,14 @@ void carMaintence ()
            cout << "Check Break Fluid" << endl;
             cout << "Check Break Pads" << endl; 
              cout << "Check Break Rotors" << endl;
-              cout << "Change Tranmission Fluid" << endl; 
+              cout << "Replace Tranmission Fluid" << endl; 
                  
+        }
+
+        else if(miles > 60,000 && miles < 90,000){
+          cout << "Change Car Hoses" << endl;
+          cout << "Replace Power Steering Fluid" << endl;
+          cout << "Replace Timing Belt" << endl;
         }
     
 
