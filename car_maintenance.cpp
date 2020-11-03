@@ -104,17 +104,17 @@ void OilCheck() {
                 break;
             }
         case 3:
-            if (miles <= 5000) {
+            if (miles <= 3000) {
                 cout << "No need to change oil yet." << endl;
                 system("pause");
                 break;
             }
-            else if (miles > 5000 && miles <= 7500) {
+            else if (miles > 3000 && miles <= 5000) {
                 cout << "Consider getting an oil change" << endl;
                 system("pause");
                 break;
             }
-            else if (miles > 7500) {
+            else if (miles > 5000) {
                 cout << "Change oil as soon as possible" << endl;
                 system("pause");
                 break;
