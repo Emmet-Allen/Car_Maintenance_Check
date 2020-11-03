@@ -137,23 +137,6 @@ void OilCheck() {
             }
 
     }
-
-    //if (oilType == "Synthetic") {
-    //    if (miles <= 5000) {
-    //        cout << "No need to change oil yet." << endl;
-    //        system("pause");
-    //    }
-    //    else if (miles > 5000 && miles <= 7500) {
-    //        cout << "Consider getting an oil change" << endl;
-    //        system("pause");
-    //    }
-    //    else if (miles > 7500) {
-    //        cout << "Change oil as soon as possible" << endl;
-    //        system("pause");
-    //    }
-    //    
-    //}
-
 }
 
 
